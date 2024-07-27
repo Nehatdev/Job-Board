@@ -1,0 +1,116 @@
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ccd794;
+  border-radius: 10px;
+  
+}
+
+.Job{
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='text'],
+textarea,
+input[type='file'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea{
+  height: 150px;
+}
+
+.job-card {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card .card-body {
+  padding: 20px;
+}
+
+.job-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6da9d6;
+}
+
+.job-card .card-text {
+  color: #7f96e0;
+  margin-top: 10px;
+}
+
+.job-card .btn {
+  margin-top: 10px;
+}
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
